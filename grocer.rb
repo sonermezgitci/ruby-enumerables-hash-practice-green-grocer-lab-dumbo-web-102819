@@ -22,9 +22,9 @@ end
     coupons.each do |coupon|
     item = coupon[:item]
     coupon_item = "#{item} W/COUPON"
-      if cart.has_key?(item) 
-        if cart[item][:count] >= coupon[:num]
-          if !cart [coupon_item]
+  if cart.has_key?(item) 
+  if cart[item][:count] >= coupon[:num]
+  if !cart [coupon_item]
              cart[coupon_item] = {count: coupon[:num], price: coupon[:cost]/coupon[:num]}
           else
           cart[coupon_item][:count] += coupon[:num]
