@@ -36,7 +36,9 @@ end
 
 
 def apply_clearance(cart)
-  cat.each do |product_name,stats
+  cat.each do |product_name,stats|
+    
+    
 end
 
 def checkout(cart, coupons)
