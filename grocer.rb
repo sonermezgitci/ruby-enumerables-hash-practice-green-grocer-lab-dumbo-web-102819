@@ -15,7 +15,7 @@ end
 final
 end
 
-consolidate_cart(sample)
+ def consolidate_cart(sample)
 
 
 
